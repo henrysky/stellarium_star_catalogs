@@ -57,6 +57,7 @@ Here are the scripts and notebooks in this repository, you should **follow the o
 #. | `Star_Catalog_lv0_6.ipynb`_ - This notebook generate a bright star catalog (0-6) for Stellarium.
 #. | `Star_catalog_lv7.ipynb`_ - This notebook generate a star catalog level 7 for Stellarium.
 #. | `Star_catalog_lv8.ipynb`_ - This notebook generate a star catalog level 8 for Stellarium.
+#. | `4_gen_binary_stars_orbit.py`_ - This script generate orbital parameters data file for binary stars.
 
 .. _1_simbad_query_hipsaohdhr.py: 1_simbad_query_hipsaohdhr.py
 .. _Parse_HIP_Catalog.ipynb: Parse_HIP_Catalog.ipynb
@@ -64,6 +65,8 @@ Here are the scripts and notebooks in this repository, you should **follow the o
 .. _Star_Catalog_lv0_6.ipynb: Star_Catalog_lv0_6.ipynb
 .. _Star_catalog_lv7.ipynb: Star_catalog_lv7.ipynb
 .. _Star_catalog_lv8.ipynb: Star_catalog_lv8.ipynb
+.. _4_gen_binary_stars_orbit.py: 4_gen_binary_stars_orbit.py
+
 
 Acknowledgement
 ----------------
