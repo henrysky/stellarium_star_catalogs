@@ -52,7 +52,7 @@ Scripts and Notebooks
 Here are the scripts and notebooks in this repository, you should **follow the order** to run the scripts and notebooks.
 
 #. | `1_simbad_query_hipsaohdhr.py`_ - This script query SIMBAD for all possible Hipparcos/SAO/HD/HR IDs and save as a astropy table.
-#. | `Parse_HIP_Catalog.ipynb`_ - This notebook parse the HIP catalog and make sure the data is correct and clean along with Gaia source IDs and binary component IDs.
+#. | `2_parse_hip_catalog.py`_ - This script parse the HIP catalog and make sure the data is correct and clean along with Gaia source IDs and binary component IDs.
 #. | `Gaia_Photometry.ipynb`_ - (*Optional*) This notebook provides sanity check for $V$-band magnitude and $B-V$ color computed from the Gaia DR3 photometry.
 #. | `Star_Catalog_lv0_6.ipynb`_ - This notebook generate a bright star catalog (0-6) for Stellarium.
 #. | `Star_catalog_lv7.ipynb`_ - This notebook generate a star catalog level 7 for Stellarium.
@@ -60,7 +60,7 @@ Here are the scripts and notebooks in this repository, you should **follow the o
 #. | `4_gen_binary_stars_orbit.py`_ - This script generate orbital parameters data file for binary stars.
 
 .. _1_simbad_query_hipsaohdhr.py: 1_simbad_query_hipsaohdhr.py
-.. _Parse_HIP_Catalog.ipynb: Parse_HIP_Catalog.ipynb
+.. _2_parse_hip_catalog.py: 2_parse_hip_catalog.py.py
 .. _Gaia_Photometry.ipynb: Gaia_Photometry.ipynb
 .. _Star_Catalog_lv0_6.ipynb: Star_Catalog_lv0_6.ipynb
 .. _Star_catalog_lv7.ipynb: Star_catalog_lv7.ipynb

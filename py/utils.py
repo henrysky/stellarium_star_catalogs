@@ -1,8 +1,6 @@
 from astroquery.simbad import Simbad
 
-
-custom_simbad = Simbad()
-custom_simbad.TIMEOUT = 99999
+custom_simbad = Simbad(timeout=3600)
 
 cols_to_add = [
     "ids",
@@ -25,7 +23,7 @@ cols_to_add = [
     "rvz_err",
 ]
 
-# you can add multiple columns at once, but the order of 
+# you can add multiple columns at once, but the order of
 # the columns remaining the same is important for caching
 for col in cols_to_add:
     custom_simbad.add_votable_fields(col)
